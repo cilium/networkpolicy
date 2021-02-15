@@ -4,7 +4,7 @@ The Pods will likely want to resolve DNS queries on port 53/UDP. For example, wh
 
 However, once you start enforcing egress network policy rules, egress traffic is going to be dropped by default, unless it's explicitly allowed by a network policy rule. That is a common mistake to make, and it's easy to forget about a need to allow egress traffic to Kubernetes DNS.
 
-Let’s say you created a NetworkPolicy to prevent your Pods from the `default` namespace from sending traffic anywhere except to Pods in the same `default` namespace The Network Policy Editor was preloaded with an example of such a network policy.
+Let's say you created a NetworkPolicy to prevent your Pods from the `default` namespace from sending traffic anywhere except to Pods in the same `default` namespace The Network Policy Editor was preloaded with an example of such a network policy.
 
 After deploying this network policy all DNS queries to `kube-dns` in `kube-system` namespace will fail. 
 
