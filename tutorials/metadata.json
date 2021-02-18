@@ -1,0 +1,29 @@
+{
+  "tutorials": [
+    {
+      "id": "allow-cross-namespace",
+      "title": "Tutorial: Allow Cross Namespace Traffic",
+      "yaml": true
+    },
+    {
+      "id": "allow-egress-to-pod",
+      "title": "Tutorial: Allow Egress To Pod",
+      "yaml": true
+    },
+    {
+      "id": "allow-kube-dns",
+      "title": "Tutorial: Allow Egress To Kubernetes DNS",
+      "yaml": true
+    },
+    {
+      "id": "combine-policy-rules",
+      "title": "Tutorial: Misunderstanding How Policy Rules Combine",
+      "yaml": true
+    },
+    {
+      "id": "empty-selectors",
+      "title": "Tutorial: Understanding Empty Selectors {}",
+      "yaml": true
+    }
+  ]
+}
